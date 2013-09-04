@@ -1,7 +1,9 @@
-package br.com.locbus.dao.Impl;
+package br.com.locbus.teste;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+
+import br.com.locbus.dao.Impl.ConnectionFactory;
 
 public class TestaConexao {
 	public static void main(String[] args) throws SQLException {
